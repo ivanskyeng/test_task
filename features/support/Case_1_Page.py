@@ -68,7 +68,8 @@ class Case_1_Page:
         return context.browser.find_element_by_css_selector('conference_statuses_2kUeJ')
 
     def tch_1st_page(self, context):
-        context.browser.find_element_by_css_selector('.lesson-plan_item_2C7Er:nth-child(1) .lesson-plan_title-block_3lZx7>span').click()
+        context.browser.find_element_by_css_selector('div [class^="lesson-plan_item"]:nth-child(1) div[class*="lesson-plan_title-block"] span:nth-child(2)').click()
+        #context.browser.find_element_by_css_selector('.lesson-plan_item_2C7Er:nth-child(1) .lesson-plan_title-block_3lZx7>span').click()
 
     def tch_2nd_page(self, context):
         context.browser.find_element_by_css_selector('.lesson-plan_item_2C7Er:nth-child(2) .lesson-plan_title-block_3lZx7>span').click()
