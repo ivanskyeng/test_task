@@ -3,7 +3,7 @@
 1. Install:
 	* [Git](http://git-scm.com/)
 	* [Python](https://www.python.org/downloads/) 
-	* [pip](https://pypi.python.org/pypi/pip) or use [Homebrew](http://brew.sh/)
+	* [pip](https://pypi.python.org/pypi/pip)
 
 2. Use pip to install selenium , behave and request 
 	* sudo pip install selenium 
