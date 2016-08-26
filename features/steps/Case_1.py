@@ -81,7 +81,7 @@ def step_impl(context):
     print(cs.st_lesson_title(context))
     assert cs.st_lesson_title(context) == "GE 1. Hello!"
     print(cs.st_task_title(context))
-    assert cs.st_task_title(context) == "Listen to the dialogues. Then repeat the dialogues."
+    assert cs.st_task_title(context) == "Listen and repeat" #"Listen to the dialogues. Then repeat the dialogues."
     time.sleep(1)
     print(cs.st_1st_item_text(context))
     assert cs.st_1st_item_text(context) == "Hi, I'm Molly."
