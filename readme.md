@@ -1,4 +1,4 @@
-# test_task
+# A small test automation implementation
 ## Environment Setup
 1. Install:
 	* [Git](http://git-scm.com/)
